@@ -1,0 +1,21 @@
+{
+    "name": "lartisan/filament-measuring-tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lartisan\\MeasuringTools\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "filament/support": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lartisan\\MeasuringTools\\MeasuringToolsServiceProvider"
+            ]
+        }
+    }
+}
